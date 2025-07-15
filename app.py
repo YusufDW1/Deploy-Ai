@@ -53,11 +53,11 @@ if submitted:
 # --- Footer Info ---
 st.markdown("""
 <hr style="margin-top:50px;">
-<div class="footer">
-    Model: <code>IndoBERT (indobenchmark/indobert-base-p1)</code> | Dibuat oleh 
-    <a href="https://github.com/YusufDW1" target="_blank">Yusuf Dwi Saputra</a> dan 
-    <a href="https://github.com/Kotsuke" target="_blank">Subandrio</a><br>
+<div style='text-align: center; font-size: 0.9em; color: gray;'>
+    Dibuat oleh <a href="https://github.com/YusufDW1" target="_blank">Yusuf Dwi Saputra</a> dan
+    <a href="https://github.com/Kotsuke" target="_blank">Subandrio</a>
 </div>
 """, unsafe_allow_html=True)
+
 
 
