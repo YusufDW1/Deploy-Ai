@@ -1,0 +1,9 @@
+indobert_spam_model/
+indobert_spam_tokenizer/
+results/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
