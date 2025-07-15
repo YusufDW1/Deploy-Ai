@@ -13,8 +13,8 @@ st.markdown("<p style='text-align: center;'>Masukkan isi email di bawah ini untu
 # --- Load model & tokenizer ---
 @st.cache_resource
 def load_model():
-    tokenizer = AutoTokenizer.from_pretrained("YusufDW1/IndoBERT-Spam-Model/tokenizer")
-    model = AutoModelForSequenceClassification.from_pretrained("YusufDW1/IndoBERT-Spam-Model/model")
+    tokenizer = AutoTokenizer.from_pretrained("YusufDW1/IndoBERT-Spam-Model")
+    model = AutoModelForSequenceClassification.from_pretrained("YusufDW1/IndoBERT-Spam-Model")
     return tokenizer, model
 
 tokenizer, model = load_model()
